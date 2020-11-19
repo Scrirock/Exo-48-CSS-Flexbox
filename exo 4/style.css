@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2rem;
+}
+
+div{
+    width: 32%;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    width: 75%;
+    height: 430px;
+    margin: auto;
+}
+
+
+.c1{
+    background-color: green;
+}
+
+.c2{
+    background-color: blue;
+}
+
+.c3{
+    background-color: blueviolet;
+}
+
+.c4{
+    background-color: yellow;
+}
+
+.c5{
+    background-color: red;
+}
+
+#grand{
+    flex-basis: 98%;
+}

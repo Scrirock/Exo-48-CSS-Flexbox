@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    font-size: 2rem;
+}
+
+div{
+    width: 20%;
+    height: 5rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.h:hover{
+    height: 10rem;
+    padding-top: 3rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10rem;
+}
+
+.c1{
+    background-color: green;
+}
+
+.c2{
+    background-color: blue;
+}
+
+.c3{
+    background-color: blueviolet;
+}
+
+.c4{
+    background-color: yellow;
+}
+
+.c5{
+    background-color: red;
+}
